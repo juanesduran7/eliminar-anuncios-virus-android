@@ -272,8 +272,8 @@ class AndroidCleanerApp(QMainWindow):
             "android", "com.sec", "com.miui", "com.xiaomi", "com.oneplus",
             "com.oppo", "com.vivo", "com.lge", "com.htc", "com.sony",
             "com.amazon", "com.netflix", "com.spotify", "com.microsoft",
-            "com.adobe", "com.dropbox", "com.teslacoilsw", "com.spotify",
-            "com.disney", "com.hulu", "com.paypal", "com.bank", "com.bbva",
+            "com.spotify",
+            "com.paypal", "com.bank", "com.bbva",
             "com.santander", "com.davivienda", "com.bancolombia"
         ]
         return any(package.startswith(prefix) for prefix in safe_prefixes)
@@ -348,8 +348,7 @@ class AndroidCleanerApp(QMainWindow):
 
     def is_removable_package(self, package):
         protected = [
-            "com.whatsapp", "org.telegram", "com.facebook", "com.instagram", "com.snapchat",
-            "com.google", "com.android", "com.google.android", "com.google.android.gms",
+            "com.whatsapp", "org.telegram", "com.facebook", "com.instagram", "com.android", "com.google.android", "com.google.android.gms",
             "com.google.android.apps", "com.google.android.youtube", "com.google.android.maps",
             "com.android", "com.android.providers", "com.android.systemui", "com.android.settings",
             "android", "com.android.phone", "com.android.contacts", "com.android.mms",
