@@ -6,3 +6,4 @@ solo ejecuta el .bat y se abrira
 Recuerda instalar Python 3.xx
 
 my telegram: https://t.me/devjuanduran
+my telegram canal: https://t.me/programagsmdev
